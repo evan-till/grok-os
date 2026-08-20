@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rotlabs/Rot-OS.git"
+    "url": "https://github.com/evan-till/grok-os.git"
   },
   "license": "MIT",
   "author": "The useless bot Team",
