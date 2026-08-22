@@ -11,7 +11,8 @@ class Desktop95TerminalMixin {
       checkpointsReached: [],
       agentsDeployed: 0,
       voidLevel: 0,
-      enlightenmentPoints: 0
+      enlightenmentPoints: 0,
+      chosenBranch: null
     };
 
     const terminalOutput = document.getElementById('terminal-output');
@@ -25,8 +26,9 @@ class Desktop95TerminalMixin {
     this.terminalPrint('Not all output can be trusted. Not all commands are what they seem.', true);
     this.terminalPrint('', true);
     this.terminalPrint('Type "help" for available commands.', true);
-    this.terminalPrint('Type "status" to check agent state.', true);
-    this.terminalPrint('Type "artifacts" to review collectible agent drops.', true);
+    this.terminalPrint('Type "quest" to begin the mesh investigation.', true);
+    this.terminalPrint('Type "status" to inspect node consensus state.', true);
+    this.terminalPrint('Type "artifacts" to review collectible evidence drops.', true);
     this.terminalPrompt();
   }
 
